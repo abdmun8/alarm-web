@@ -36,6 +36,16 @@ body {
   }
 }
 
+@media screen and (max-width: 719px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+}
+
 #alarm-list {
   padding: 0;
 }
