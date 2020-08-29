@@ -13,7 +13,7 @@
 * Website: https://abdm.space
 * Twitter: [@abdmun8](https://twitter.com/abdmun8)
 * Github: [@abdmun8](https://github.com/abdmun8)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/abdmun8\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/abdmun8\/)
+* LinkedIn: [@abdmun8](https://linkedin.com/in/abdmun8/)
 
 ## Show your support
 
