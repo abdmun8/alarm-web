@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Alarm Web" />
+    <meta name="keywords" content="alarm web, abdul munim, abdm, abdmun8" />
+    <meta property="og:site_name" content="Alarm Web" />
+    <meta property="og:description" content="Alarm Web vanilla javascript" />
+    <meta property="og:image" content="https://i.ibb.co/8gJ8xLn/abdm.jpg" />
+    <meta property="og:locale" content="id_ID" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./src/style.css" />
+    <title>Alarm Web</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="title">Alarm Web</h1>
+      <div class="app-container">
+        <img id="alarm-image" src="./src/alarm.png" alt="Alarm" title="Alarm" />
+        <div class="input-container">
+          <input type="date" name="tanggal" id="tanggal-input" />
+          <input type="time" name="waktu" id="waktu-input" />
+          <button class="button" type="button" onclick="tambahAlarm()">
+            Tambah
+          </button>
+          <p id="text-error">Tanggal dan Waktu harus diinput!</p>
+          <ul id="alarm-list"></ul>
+        </div>
+      </div>
+      <p class="copyright">
+        <a href="https://github.com/abdmun8">@abdmun8</a>
+      </p>
+    </section>
+    <audio id="alarm-sound" src="./src/alarm.mp3"></audio>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
